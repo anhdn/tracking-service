@@ -59,7 +59,6 @@ Main directories:
 ### Event Tracking uses AWS SQS 
 Checkout ```/api/services/tracking.sqs.service```
 
-
 ## Install and Use
 ```sh
 # start docker compose install postgresql database
@@ -70,21 +69,13 @@ $ npm install
 $ npm start 
 ```
 
-## Tracking Service
-
-https://github.com/anhdn/tracking-service
-
-This service we use serverless lambda function. Using serverless framework for deployment
-
-### Setup
-
+## Run tests
 ```
-npm install
-serverless deploy
+# Run unit tests 
+$ npm run test
+# only runs tests for using with ci tools 
+$ npm run test-ci
 ```
-
-## Usage
-In `handler.js` update the `mongoString` with your mongoDB url.
  
 ### other commands
 
@@ -96,6 +87,22 @@ In `handler.js` update the `mongoString` with your mongoDB url.
 ### Postman API collection
 
 https://www.getpostman.com/collections/11005016854d0f3134cd
+
+
+
+## Tracking Service
+
+https://github.com/anhdn/tracking-service
+
+### Setup
+
+```
+npm install
+serverless deploy
+```
+
+## Usage
+In `handler.js` update the `mongoString` with your mongoDB url.
 
 
 ## LICENSE
