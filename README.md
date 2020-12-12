@@ -56,7 +56,7 @@ Main directories:
 - test - using [Jest](https://github.com/facebook/jest)
 - sevices
 
-### For Event Tracking We use AWS SQS 
+### Event Tracking uses AWS SQS 
 Checkout ```/api/services/tracking.sqs.service```
 
 
