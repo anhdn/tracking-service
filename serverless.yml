@@ -1,0 +1,13 @@
+service: tracking-service
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+
+  updateUser:
+    handler: handler.trackingConsume
+    events:
+      - http:
+          path: tracking-consume
+          method: put
+          cors: true
