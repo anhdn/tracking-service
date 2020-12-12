@@ -74,6 +74,8 @@ $ npm start
 
 https://github.com/anhdn/tracking-service
 
+This service we use serverless lambda function. Using serverless framework for deployment
+
 ### Setup
 
 ```
