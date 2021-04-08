@@ -88,3 +88,6 @@ custom:
     prewarm: true
     concurrency: 2
 ```
+
+## Inventory Service
+https://github.com/anhdn/inventory-service
