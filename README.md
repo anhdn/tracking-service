@@ -37,10 +37,10 @@ functions:
 ```
 
 #### 2. Tracking function 
- [`./src/tracking.ts`](./src/tracking.ts) is the basic funtion built to run isolated. This function will receive tracking data events from inventory services.
----
+ 
+[`./src/tracking.ts`](./src/tracking.ts) is the basic funtion built to run isolated. This function will receive tracking data events from inventory services.
 
-### Live-reloading functions
+### Development live-reloading functions
 
 To run the tracking function:
 
