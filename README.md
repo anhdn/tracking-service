@@ -48,6 +48,8 @@ To run the tracking function:
 yarn watch:tracking
 ```
 
+With this setup, there can be many services we can put on the same repo but run and deploy seprately. This will help reuse source code and reduce testing.
+
 ### API Gateway-like local dev server
 
 To spin up a local dev server that will more closely match the API Gateway endpoint/experience:
