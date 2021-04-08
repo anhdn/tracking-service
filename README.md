@@ -43,6 +43,10 @@ functions:
 
 [`./src/tracking.ts`](./src/tracking.ts) is the basic funtion built to run isolated. This function will receive tracking data events from inventory services.
 
+#### 3. Database
+
+This repo I use Cloud DBaaS MongoDB Atlas Database. Config can be load from .env. Or we can use mongo local by replacing connectionURL.
+
 ### Development live-reloading functions
 
 To run the tracking function:
