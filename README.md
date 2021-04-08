@@ -33,7 +33,7 @@ functions:
     events:
       - http:
           path: tracking
-          method: get
+          method: post
 ```
 
 #### 2. Tracking function 
