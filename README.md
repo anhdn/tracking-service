@@ -1,4 +1,4 @@
-
+# iCommerce Project
 ## Tracking Service
 This service is simple serverless lambda for tracking view/search products.
 Built on top of Serverless framework, typescript, webpack to build. linting with EsLint, prettier for formatting. This structure will make lambda function run, deploy, scale faster.
